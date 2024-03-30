@@ -94,7 +94,7 @@ a {
 .header__bottom {
     margin-top: 20px;
     column-gap: 30px;
-    padding-bottom: 11px;
+    padding-bottom: 13px;
 }
 .header__left {
     column-gap: 25px;
@@ -172,7 +172,7 @@ a {
     display: block;
     position: absolute;
     content: "";
-    bottom: -11px;
+    bottom: -13px;
     left: 0;
     width: calc(100% + 2px);
     height: 2px;
