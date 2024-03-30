@@ -352,6 +352,9 @@ a {
         height: 100%;
         object-fit: cover;
     }
+    .hero__wrap {
+        padding: 24px 0 11px 0;
+    }
     .hero__list {
         margin-top: 23px;
         grid-template-columns: 1fr;
