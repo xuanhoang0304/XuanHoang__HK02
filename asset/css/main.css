@@ -117,6 +117,7 @@ a {
     border: none;
     padding: 1px 0;
     width: 100%;
+    font-size: 1.2rem;
 }
 .header__input::placeholder {
     color: #d6d7dc;
