@@ -13,13 +13,20 @@
         <!-- Header -->
         <header class="header header--fixed">
             <div class="container">
-                <div class="header__wrap">
+                <nav class="header__wrap">
                     <div class="header__top">
                         <div class="header__left">
+                            <figure class="mbHeader__menu hide-pc show-mb">
+                                <img
+                                    src="./asset/img/menu.png"
+                                    alt="menu"
+                                    class="mbHeader__menu-img"
+                                />
+                            </figure>
                             <a href="#">
                                 <img src="./asset/img/logo.svg" alt="logo" />
                             </a>
-                            <div class="header__search">
+                            <div class="header__search hide-mb">
                                 <img src="./asset/img/Line.svg" alt="search" />
                                 <input
                                     type="text"
@@ -27,7 +34,7 @@
                                     placeholder="Search"
                                 />
                             </div>
-                            <ul class="header__text">
+                            <ul class="header__text hide-mb">
                                 <li>
                                     <a href="#" class="header__link">Browse</a>
                                 </li>
@@ -42,11 +49,20 @@
                             </ul>
                         </div>
                         <div class="header__right">
-                            <button class="header__sell">Sell Product</button>
-                            <button>
+                            <button class="mbHeader__search hide-pc show-mb">
+                                <img
+                                    src="./asset/img/Line.svg"
+                                    alt="search"
+                                    class="mbHeader__search-icon"
+                                />
+                            </button>
+                            <button class="header__sell hide-mb">
+                                Sell Product
+                            </button>
+                            <button class="hide-mb">
                                 <img src="./asset/img/chart.svg" alt="cart" />
                             </button>
-                            <button>
+                            <button class="hide-mb">
                                 <img
                                     src="./asset/img/notification.svg"
                                     alt="noti"
@@ -55,7 +71,7 @@
                             <button class="header__logIn">Log in</button>
                         </div>
                     </div>
-                    <div class="header__bottom">
+                    <div class="header__bottom hide-mb">
                         <li>
                             <a href="#" class="header__bottom-link">Features</a>
                         </li>
@@ -86,36 +102,10 @@
                             <a href="#" class="header__bottom-link">Icons</a>
                         </li>
                     </div>
-                </div>
+                </nav>
             </div>
         </header>
-        <!-- Mobie Header -->
-        <header class="mbHeader">
-            <div class="container">
-                <div class="mbHeader__wrap">
-                    <div class="mbHeader__left">
-                        <figure class="mbHeader__menu">
-                            <img
-                                src="./asset/img/menu.png"
-                                alt="menu"
-                                class="mbHeader__menu-img"
-                            />
-                        </figure>
-                        <img src="./asset/img/logo.svg" alt="logo" />
-                    </div>
-                    <div class="mbHeader__right">
-                        <button class="mbHeader__search">
-                            <img
-                                src="./asset/img/Line.svg"
-                                alt="search"
-                                class="mbHeader__search-icon"
-                            />
-                        </button>
-                        <button class="header__logIn">Log in</button>
-                    </div>
-                </div>
-            </div>
-        </header>
+
         <!-- Main -->
         <main>
             <section class="hero">
