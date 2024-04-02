@@ -12,17 +12,34 @@
     <body>
         <!-- Header -->
         <header class="header header--fixed">
+            <input type="checkbox" id="check" class="check hide-pc" />
+            <label for="check" class="overplay"></label>
+            <div class="toggle-menu">
+                <div class="toggle-menu__top">
+                    <button class="header__sell">Sell Product</button>
+                    <button>
+                        <img src="./asset/img/chart.svg" alt="cart" />
+                    </button>
+                </div>
+                <ul id="toggle-menu__middle">
+                    
+                </ul>
+                <ul id="toggle-menu__bottom"></ul>
+            </div>
             <div class="container">
                 <nav class="header__wrap">
                     <div class="header__top">
                         <div class="header__left">
-                            <button class="mbHeader__menu hide-pc show-mb">
+                            <label
+                                class="mbHeader__menu hide-pc show-mb"
+                                for="check"
+                            >
                                 <img
                                     src="./asset/img/menu.png"
                                     alt="menu"
                                     class="mbHeader__menu-img"
                                 />
-                            </button>
+                            </label>
                             <a href="#">
                                 <img src="./asset/img/logo.svg" alt="logo" />
                             </a>
@@ -71,7 +88,7 @@
                             <button class="header__logIn">Log in</button>
                         </div>
                     </div>
-                    <div class="header__bottom hide-mb">
+                    <div id="header__bottom" class="header__bottom hide-mb">
                         <li>
                             <a href="#" class="header__bottom-link">Features</a>
                         </li>
@@ -503,4 +520,5 @@
         </main>
         <footer></footer>
     </body>
+    <script src="./asset/js/app.js"></script>
 </html>
