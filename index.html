@@ -1,106 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Font -->
-        <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet" />
-        <!-- Css -->
-        <link rel="stylesheet" href="./asset/css/main.css" />
-        <title>Hackathon02</title>
-    </head>
-    <body>
-        <!-- Header -->
-        <header class="header header--fixed">
-            <input type="checkbox" id="check" class="check hide-pc" />
-            <label for="check" class="overplay"></label>
-            <div class="toggle-menu hide-pc show-mb">
-                <div class="toggle-menu__top">
-                    <button class="header__sell">Sell Product</button>
-                    <button>
-                        <img src="./asset/img/chart.svg" alt="cart" />
-                    </button>
-                </div>
-                <ul id="toggle-menu__middle"></ul>
-                <ul id="toggle-menu__bottom"></ul>
-            </div>
-            <div class="container">
-                <nav class="header__wrap">
-                    <div class="header__top">
-                        <div class="header__left">
-                            <label
-                                class="mbHeader__menu hide-pc show-mb"
-                                for="check"
-                            >
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font -->
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet" />
+    <!-- Css -->
+    <link rel="stylesheet" href="./asset/css/main.css" />
+    <title>Hackathon02</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header header--fixed">
+        <div class="container">
+            <nav class="header__wrap">
+                <div class="header__top">
+                    <div class="header__left">
+                        <button class="mbHeader__menu hide-pc show-mb" for="check">
                                 <img
                                     src="./asset/img/menu.png"
                                     alt="menu"
                                     class="mbHeader__menu-img"
                                 />
-                            </label>
-                            <a href="#">
-                                <img src="./asset/img/logo.svg" alt="logo" />
-                            </a>
-                            <div class="header__search hide-mb">
-                                <img src="./asset/img/Line.svg" alt="search" />
-                                <input
-                                    type="text"
-                                    class="header__input"
-                                    placeholder="Search"
-                                />
-                            </div>
-                            <ul class="header__text hide-mb">
-                                <li>
-                                    <a href="#" class="header__link">Browse</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="header__link"
-                                        >Free Assets</a
+                                
+                            </button>
+                        <a href="#">
+                            <img src="./asset/img/logo.svg" alt="logo" />
+                        </a>
+                        <div class="header__search hide-mb">
+                            <img src="./asset/img/Line.svg" alt="search" />
+                            <input type="text" class="header__input" placeholder="Search" />
+                        </div>
+                        <ul class="header__text hide-mb">
+                            <li>
+                                <a href="#" class="header__link">Browse</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__link">Free Assets</a
                                     >
                                 </li>
                                 <li>
                                     <a href="#" class="header__link">Pricing</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="header__right">
-                            <button class="mbHeader__search hide-pc show-mb">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header__right">
+                        <button class="mbHeader__search hide-pc show-mb">
                                 <img
                                     src="./asset/img/Line.svg"
                                     alt="search"
                                     class="mbHeader__search-icon"
                                 />
                             </button>
-                            <button class="header__sell hide-mb">
+                        <button class="header__sell hide-mb">
                                 Sell Product
                             </button>
-                            <button class="hide-mb">
+                        <button class="hide-mb">
                                 <img src="./asset/img/chart.svg" alt="cart" />
                             </button>
-                            <button class="hide-mb">
+                        <button class="hide-mb">
                                 <img
                                     src="./asset/img/notification.svg"
                                     alt="noti"
                                 />
                             </button>
-                            <button class="header__logIn">Log in</button>
-                        </div>
+                        <button class="header__logIn">Log in</button>
                     </div>
-                    <div id="header__bottom" class="header__bottom hide-mb">
-                        <li>
-                            <a href="#" class="header__bottom-link">Features</a>
-                        </li>
-                        <li>
-                            <a href="#" class="header__bottom-link"
-                                >Templates</a
+                </div>
+                <div id="header__bottom" class="header__bottom hide-mb">
+                    <li>
+                        <a href="#" class="header__bottom-link">Features</a>
+                    </li>
+                    <li>
+                        <a href="#" class="header__bottom-link">Templates</a
                             >
                         </li>
                         <li>
                             <a href="#" class="header__bottom-link">Web App</a>
-                        </li>
-                        <li>
-                            <a href="#" class="header__bottom-link"
-                                >Mobile App</a
+                    </li>
+                    <li>
+                        <a href="#" class="header__bottom-link">Mobile App</a
                             >
                         </li>
                         <li>
@@ -115,69 +96,70 @@
                         </li>
                         <li>
                             <a href="#" class="header__bottom-link">Icons</a>
-                        </li>
-                    </div>
-                </nav>
+                    </li>
+                </div>
+            </nav>
+        </div>
+        <div class="overlay"></div>
+        <div class="toggle-menu hide-pc show-mb">
+            <div class="toggle-menu__top">
+                <button class="header__sell">Sell Product</button>
+                <button>
+                        <img src="./asset/img/chart.svg" alt="cart" />
+                    </button>
             </div>
-        </header>
+            <ul id="toggle-menu__middle"></ul>
+            <ul id="toggle-menu__bottom"></ul>
+        </div>
+    </header>
 
-        <!-- Main -->
-        <main>
-            <section class="hero">
-                <div class="container">
-                    <div class="hero__wrap">
-                        <div class="hero__top">
-                            <h1 class="hero__heading">Features Design Files</h1>
-                            <button class="hero__filter">
+    <!-- Main -->
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__wrap">
+                    <div class="hero__top">
+                        <h1 class="hero__heading">Features Design Files</h1>
+                        <button class="hero__filter">
                                 <img
                                     src="./asset/img/filter.svg"
                                     alt="filter"
                                 />
                             </button>
-                        </div>
-                        <ul class="hero__list">
-                            <!-- Item01 -->
-                            <li class="hero__item">
-                                <figure class="hero__img-wrap">
-                                    <img
-                                        src="asset/img/hero__img01.png"
-                                        alt="hero image"
-                                        class="hero__img"
-                                    />
-                                    <div class="hero__modal">
-                                        <button>
+                    </div>
+                    <ul class="hero__list">
+                        <!-- Item01 -->
+                        <li class="hero__item">
+                            <figure class="hero__img-wrap">
+                                <img src="asset/img/hero__img01.png" alt="hero image" class="hero__img" />
+                                <div class="hero__modal">
+                                    <button>
                                             <img
                                                 src="./asset/img/like.svg"
                                                 alt="like"
                                             />
                                         </button>
-                                        <button>
+                                    <button>
                                             <img
                                                 src="./asset/img/add-to-cart.svg"
                                                 alt="add to cart"
                                             />
                                         </button>
-                                    </div>
-                                </figure>
-                                <div class="hero__info">
-                                    <h2 class="hero__title line-clamp">
-                                        Job Finder Website Design Job Finder
-                                        Website Design Job Finder Website Design
-                                        Job Finder Website Design
-                                    </h2>
-                                    <p class="hero__price">$60</p>
                                 </div>
-                                <div class="hero__templates">
-                                    <figure class="hero__temp-wrap">
-                                        <img
-                                            src="./asset/img/card-logo.svg"
-                                            alt="card logo"
-                                        />
-                                    </figure>
-                                    <p class="hero__text">
-                                        UIHUT in
-                                        <span class="hero__text--bold"
-                                            >Templates</span
+                            </figure>
+                            <div class="hero__info">
+                                <h2 class="hero__title line-clamp">
+                                    Job Finder Website Design Job Finder Website Design Job Finder Website Design Job Finder Website Design
+                                </h2>
+                                <p class="hero__price">$60</p>
+                            </div>
+                            <div class="hero__templates">
+                                <figure class="hero__temp-wrap">
+                                    <img src="./asset/img/card-logo.svg" alt="card logo" />
+                                </figure>
+                                <p class="hero__text">
+                                    UIHUT in
+                                    <span class="hero__text--bold">Templates</span
                                         >
                                     </p>
                                 </div>
